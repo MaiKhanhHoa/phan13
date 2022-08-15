@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = prompt("Nhap")
+    let arr = a.split('')
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == arr[i].toUpperCase()) {
+            arr[i] = arr[i].toLowerCase()
+        } else {
+            arr[i] = arr[i].toUpperCase()
+        }
+        document.write(arr[i])
+    }
+</script>
+</html>

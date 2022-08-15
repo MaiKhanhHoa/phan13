@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 id="hienra"></h3>
+</body>
+<script>
+    let arr = new Array(10)
+    for (let i=0;i<10;i++) {
+       arr[i]= +prompt();
+        if (arr[i]>=10) {
+            document.getElementById("hienra").innerHTML += arr[i] + "<br>"
+        }
+    }
+</script>
+</html>

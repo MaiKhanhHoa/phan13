@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 id="ketqua"></h3>
+</body>
+<script>
+    let arr = new Array(10)
+    let max = Number.MIN_SAFE_INTEGER
+    for (let i = 0; i < 10; i++) {
+        arr[i] = +prompt();
+        if (arr[i] > max) {
+            max = arr[i]
+            vitri = i
+        }
+    }
+    document.getElementById("ketqua").innerHTML = "MAX= "+ max+"<br>"+"Vi tri: "+ vitri;
+</script>
+</html>

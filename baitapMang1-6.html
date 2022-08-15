@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 id="ketqua"></h3>
+</body>
+<script>
+    let a = +prompt("Nhap so a")
+    let arr = new Array(10)
+    for (i = 0; i < 10; i++) {
+        arr[i] = +prompt()
+        if (a == arr[i]) {
+            document.getElementById("ketqua").innerHTML = "So a nam trong mang"
+            break;
+        } else {
+            document.getElementById("ketqua").innerHTML = "So a khong nam trong mang"
+        }
+    }
+
+</script>
+</html>
